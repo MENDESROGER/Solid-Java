@@ -1,0 +1,5 @@
+O - Open/Closed Principle - Príncipio Aberto / Fechado
+	Aberto para extensão e Fechado para modificação
+	Ex: uma classe extendida tomar cuidado com as alterações da classe mãe para que não reflita em erro nas classes filhas
+	
+	se for necessário realizar uma alteração o interessante é criar uma nova classe

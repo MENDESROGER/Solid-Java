@@ -1,0 +1,7 @@
+L - Liskov Substituion Principle - Princípio da Substituição de Liskov
+
+Para classes que possui processos semelhantes. 
+Significa dizer que classes derivadas devem poder substituídas por suas classes base e que classes base podem ser substituídas por qualquer uma das suas subclasses.
+Uma subclasse deve sobrescrever os métodos da superclasse de forma que a funcionalidade do ponto de vista do cliente continue a mesma.
+ou seja, ao criar uma nova subclasse com uma ideia semelhante, ao realizar o implements não terá impact na aplicação.
+No exemplo foi criado o NubankRewards que implementou o IpaymentInstrumento e não teve impact por não utilizar a classe NubankCard.

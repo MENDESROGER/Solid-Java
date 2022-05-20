@@ -1,0 +1,7 @@
+I - Interface Segregation Principle - Princípio da Segregação de Interfaces
+
+Objetivo: para interfaces infladas onde implementa métodos onde nem todas classes que for implementar utilizam estes métodos, a ideia é quebrar
+a interface em interfaces menores, clientes não devem ser forçados a depender de métodos que eles não utilizam.
+
+pode ser utilizado em classes abstratas
+

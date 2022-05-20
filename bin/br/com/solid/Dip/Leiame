@@ -1,0 +1,12 @@
+D - Dependency Inversion Principle - Princípio da Inversão de Dependência
+
+Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações;
+Abstrações não devem depender de detalhes
+
+classes de alto nível e baixo nível devem depender de abstrações
+
+A camada de negócio não deveria depender de como as outras camadas funcionam (detalhes de implementação de código), pois, analisando o contexto do ponto de vista da aplicação, 
+não importa se estou solucionando o problema utilizando Ruby e Rails, Python e Django ou Elixir e Phoenix. 
+A ideia é que a camada de negócio comunique-se com a camada intermediária e esta seja responsável pela comunicação com a camada de infraestrutura, ou outra camada qualquer, independente de como ela faz isso.
+
+
